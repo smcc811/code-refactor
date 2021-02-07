@@ -1,44 +1,54 @@
-# 01 HTML CSS Git: Code Refactor
+                                     CODE REFACTOR PROJECT
+                                     ---------------------
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
+Objective
 
-Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the Scout Rule:
+---
 
-> Always leave the code you are editing a little cleaner than you found it.
+This project was designed for the user to identify code that was similar in nature to other code in the file and consolidate the code without changing functionality as a whole.
 
-To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+Software utilized
 
-## User Story
+---
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
-```
+No software was used in this project.
 
-## Acceptance Criteria
+Direction used to resolve the issues
 
-```
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
+---
 
-## Review
+a) Review the code to understand the functionality as a whole.
+b) Look for code that was being duplicated where functionality would not be compromised.
+c) Consolidate the code in question where it can be reused within the HTML file .
+d) Once code refactored , check HTML to make sure functionality still intact.
+e) added " ID " to search criteria so nav link would function correctly ( HTML)
 
-You are required to submit the following for review:
+## Screen Shots
 
-* The URL of the deployed application.
+---
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+## Before image of HTML
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+(lead / brand / cost available)
+![](pics\benefitsb4.png):
+
+(consolidation down to just " benefit lead " for all three ):
+![](pics\benefitsafter.png)
+
+HTML PAGE WITHOUT "ID" FOR SEARCH PURPOSES:
+![](pics\nolink.png)
+
+HTML PAGE WITH "ID" FOR SEARCH PURPOSES:
+![](pics\link.png)
+
+h2 before image ( css )
+![](pics\h2b4.png)
+
+H2 AFTER CONSOLIDATED TO (" OPTIMIZATION ")
+![](pics\h2after.png)
+
+h3 before image ( css )
+![](pics\h3b4.png)
+
+H3 AFTER CONSOLIDATED TO (" benefit-all h3 ")
+![](pics\h3after.png)
