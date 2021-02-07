@@ -1,6 +1,10 @@
                                      CODE REFACTOR PROJECT
                                      ---------------------
 
+links:
+https://github.com/smcc811/code-refactor
+https://smcc811.github.io/code-refactor/
+
 Objective
 
 ---
